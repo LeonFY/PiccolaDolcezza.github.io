@@ -36,8 +36,8 @@ p{
     font-style: normal;  
 }
 @font-face{
-    font-family: "corsiva";
-    src: url("corsiva") format("woff");
+    font-family: "MonotypeCorsiva";
+    src: url("Monotype Corsiva") format("woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -53,8 +53,8 @@ body{
 }
 #titulo{
     text-align: center;
-    font-family: "corsiva";
+    font-family: "MonotypeCorsiva";
 }
 #spon{
-    font-family: "corsiva";
+    font-family: "MonotypeCorsiva";
 }
