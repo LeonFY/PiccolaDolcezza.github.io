@@ -31,9 +31,15 @@ p{
 }
 @font-face{
     font-family: "HelloKennedy";
-    src: url("web/Hellokennedy") format("woff");
+    src: url("Hellokennedy") format("woff");
     font-weight: normal;
     font-style: normal;  
+}
+@font-face{
+    font-family: "corsiva";
+    src: url("corsiva") format("woff");
+    font-weight: normal;
+    font-style: normal;
 }
 .as{
     font-family: "HelloKennedy";
@@ -44,4 +50,11 @@ body{
 }
 #nombre{
     align-content: left;
+}
+#titulo{
+    text-align: center;
+    font-family: "corsiva";
+}
+#spon{
+    font-family: "corsiva";
 }
