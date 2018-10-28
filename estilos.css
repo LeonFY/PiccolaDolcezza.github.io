@@ -12,16 +12,16 @@
   transition: all 0.3s ease;
   color:white;
   font-size: 20px;
-}  
+}
 .icon-bar a:hover {
   background-color: #000;
 }
 .facebook {
-  background: #10009c;
+  background: blue;
   color: white;
 }  
 .instagram {
-   background: #ff5411c4;
+   background: #ff9e78c4;
    color: rgb(221, 41, 41);
 }
 #how{
@@ -59,9 +59,10 @@ body{
 }
 #titulo{
     text-align: center;
-    font-family: "MonotypeCorsiva";
+    font-family: "HelloKennedy";
 }
-#spon{
+#spons{
+    padding: 20px;
     text-align: center;
     font-family: "MonotypeCorsiva";
 }
@@ -70,4 +71,7 @@ body{
     position: fixed;
     opacity: 0.5;
     z-index: 100;
-}   
+}
+#logo{
+    margin: 50px;
+}
