@@ -103,3 +103,6 @@ from {
 #titulo{
     -webkit-animation: zoomIm;
 }
+form{
+    font-family: "HelloKennedy";
+}
