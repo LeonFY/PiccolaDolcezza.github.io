@@ -75,3 +75,31 @@ body{
 #logo{
     margin: 50px;
 }
+iframe{
+    align-content: center;
+}
+.nav-link{
+    font-family: "HelloKennedy"
+}
+#pd{
+    font-family: "HelloKennedy"
+}
+@keyframes zoomIn {
+from {
+  opacity: 0;
+  -webkit-transform: scale3d(0.3, 0.3, 0.3);
+  transform: scale3d(0.3, 0.3, 0.3);
+}
+  
+ 50% {
+  opacity: 1;
+ }
+}
+  
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+}
+#titulo{
+    -webkit-animation: zoomIm;
+}
