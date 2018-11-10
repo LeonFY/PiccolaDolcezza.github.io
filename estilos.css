@@ -42,8 +42,8 @@ p{
     font-style: normal;  
 }
 @font-face{
-    font-family: "MonotypeCorsiva";
-    src: url("Monotype Corsiva") format("woff");
+    font-family: "NKmono";
+    src: url("NK-Mono") format("woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -60,11 +60,6 @@ body{
 #titulo{
     text-align: center;
     font-family: "HelloKennedy";
-}
-#spons{
-    padding: 20px;
-    text-align: center;
-    font-family: "MonotypeCorsiva";
 }
 #nav{
     width: 100%;
@@ -95,14 +90,20 @@ from {
   opacity: 1;
  }
 }
-  
 .zoomIn {
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
 }
 #titulo{
-    -webkit-animation: zoomIm;
+    -webkit-animation: "ZoomIn";
 }
 form{
+    font-family: "HelloKennedy";
+}
+h5{
+    font-family: "HelloKennedy";
+}
+#spons{
+    text-align: center;
     font-family: "HelloKennedy";
 }
